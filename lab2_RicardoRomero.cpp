@@ -43,8 +43,7 @@ int menu(int resp)
                 Harshad(201)? cout << "si\n" : cout << "no\n";
                 break;
         }
-	
-
+	resp = 0; 
     }
     return resp;
 }
