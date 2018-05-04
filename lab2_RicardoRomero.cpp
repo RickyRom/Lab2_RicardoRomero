@@ -63,8 +63,11 @@ int Circulo(int resp)
 bool Harshad(int n)
 {
     int sum = 0;
+    int x;
+    int result = n / x;
     for (int temp = n; temp > 0; temp /= 10)
 	    sum += temp % 10;
+
     return (n % sum == 0);
 }
 
